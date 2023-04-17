@@ -1,7 +1,7 @@
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
-import { useRouter } from "next/Router";
+import { useRouter } from "next/router";
 
 export default function Post({ postData }) {
   const router = useRouter();
